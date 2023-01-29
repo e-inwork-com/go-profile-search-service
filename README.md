@@ -1,7 +1,7 @@
 # [e-inwork.com](https://e-inwork.com)
 
 ## Golang Profile Search Microservice
-This microservice searches profile data and integrates with the following microservices:
+This microservice is an endpoint for searching profile data and integrates with the following microservices:
 - [Golang User Microservice](https://github.com/e-inwork-com/go-user-service)
 - [Golang Profile Microservice](https://github.com/e-inwork-com/go-profile-service)
 - [Golang Proifle Indexing Mircoservice](https://github.com/e-inwork-com/go-profile-indexing-service)
