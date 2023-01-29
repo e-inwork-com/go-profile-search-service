@@ -1,0 +1,11 @@
+# Get Golang 1.19
+FROM golang:1.19-alpine
+
+# Get Go Profile Indexing Service
+RUN go install github.com/e-inwork-com/go-profile-indexing-service/cmd@latest
+
+# Expose port
+EXPOSE 5002
+
+# Run Go Profile Service
+CMD ["cmd"]
